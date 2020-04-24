@@ -1,43 +1,66 @@
 {
-    "extracurriculars": {
-        "sports": [
-            "I love to watch and play hockey. My favorite team is the Chicago Blackhawks.",
-            "I also enjoy playing volleyball, soccer and golf."
-        ],
-        "media": [
-            "My favourite movies include: Goodfellas, A Night at the Roxbury, and The Wolf of Wall Street.",
-            "My favourite TV shows include: Prison Break, Breaking Bad, The Sopranos, Entourage, and Money Heist."
-        ]
-    },
-
-    "education": {
-        "degree": [
-            "I attended Queen's University from 2014-2019. I completed my B.ASc. in April 2019, specializing in software engineering.",
-            "My main areas of focus are in backend development and database architecture/management. Other areas that I really enjoy are frontend development and application security."
-        ],
-        "teachingAssistant": [
-            "Assisting in running a 2 hour lab each week with ~60 students",
-            "Answering questions and clarifying concepts/problems",
-            "Marking lab reports",
-            "Being available after hours for extra help"
-        ],
-        "internship": [
-            "Between 3rd and 4th year, worked in industry as a junior software developer for IFS",
-            "More about this in the work section"
-        ],
-        "networkSecurity": [
-            "Responsible for creating lecture material, running tutorials, and handling logistics and growth of the team",
-            "Going over topics such as XSS and SQL injection attacks, reconnaissance, ARP spoofing, packet sniffing, exploits, firewalls, password-cracking, and more"
-        ],
-        "froshWeek": [
-            "Involved in being one of the leaders for a frosh group during frosh week.",
-            "Myself, along with 8 others on a team, led a group of 30 first year students throughout the first week of being at Queen's. The goal was to welcome them to the school, and help them make friends and have a great introduction to what Queen's was like."
-        ],
-        "qtma": [
-            "QTMA started a club to launch and support startup ideas. Our team's idea was to create a collaborative music playing app, where users can request and vote on songs in order to determine which ones will get played next.",
-            "More about this in the projects section"
-        ]
-    },
+    "activities": [
+        {
+            "name": "Sports",
+            "description": [
+                "I love to watch and play hockey. My favorite team is the Chicago Blackhawks.",
+                "I also enjoy playing volleyball, soccer and golf."
+            ]
+        },
+        {
+            "name": "TV and Movies",
+            "description": [
+                "My favourite movies include: Goodfellas, A Night at the Roxbury, and The Wolf of Wall Street.",
+                "My favourite TV shows include: Prison Break, Breaking Bad, The Sopranos, Entourage, and Money Heist."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "name": "Degree",
+            "description": [
+                "I attended Queen's University from 2014-2019. I completed my B.ASc. in April 2019, specializing in software engineering.",
+                "My main areas of focus are in backend development and database architecture/management. Other areas that I really enjoy are frontend development and application security."
+            ]
+        },
+        {
+            "name": "Teaching Assistant - ELEC 377: Operating Systems",
+            "description": [
+                "Assisting in running a 2 hour lab each week with ~60 students",
+                "Answering questions and clarifying concepts/problems",
+                "Marking lab reports",
+                "Being available after hours for extra help"
+            ]
+        },
+        {
+            "name": "Professional Internship",
+            "description": [
+                "Between 3rd and 4th year, worked in industry as a junior software developer for IFS",
+                "More about this in the work section"
+            ]            
+        },
+        {
+            "name": "President of the Queen's Network Security Design Team",
+            "description": [
+                "Responsible for creating lecture material, running tutorials, and handling logistics and growth of the team",
+                "Going over topics such as XSS and SQL injection attacks, reconnaissance, ARP spoofing, packet sniffing, exploits, firewalls, password-cracking, and more"
+            ]
+        },
+        {
+            "name": "Frosh Week Leader",
+            "description": [
+                "Involved in being one of the leaders for a frosh group during frosh week.",
+                "Myself, along with 8 others on a team, led a group of 30 first year students throughout the first week of being at Queen's. The goal was to welcome them to the school, and help them make friends and have a great introduction to what Queen's was like."
+            ]
+        },
+        {
+            "name": "Lead Developer on the Queen's Technology and Media Association (QTMA)",
+            "description": [
+                "QTMA started a club to launch and support startup ideas. Our team's idea was to create a collaborative music playing app, where users can request and vote on songs in order to determine which ones will get played next.",
+                "More about this in the projects section"
+            ]
+        }
+    ],
 
     "home": {
         "aboutMe": [
@@ -69,6 +92,52 @@
             {
                 "name": "DJ Cloud",
                 "description": "DJ Cloud: A mobile app that allows people to create a playlist where other users can vote on songs to determine what will be played next."
+            }
+        ]
+    },
+
+    "work": {
+        "summary": [
+            "Venngage Inc., from June 2019 - March 2020 as a Software Developer.",
+            "P&F Tool & Die, a branch of Magna International, for two summers: 2016 and 2018 as an IT Systems Analyst.",
+            "IFS, formerly Mxi Technologies, from May 1st, 2017 - April 30th 2018 as a Junior Software Developer."
+        ],
+        "jobs": [
+            {
+                "company": "Venngage Inc.",
+                "projectName": "",
+                "description": [
+                    "Full stack developer, working with Docker, Express.js for Node.js, React, Redux, CSS to roll out new features, continuous improvements, and bugfixes on a weekly release basis",
+                    "Large focus on improving processes to follow agile techniques – implementing TDD, proper staging and pre-staging environments, code cleanups, project breakdown & scoping, etc."
+                ]
+            },
+            {
+                "company": "Magna:",
+                "projectName": "Part & Tool Rental Application",
+                "description": [
+                    "Replaced a paper ticket system used to track part and tool rentals. Roughly 20 hours per week were being wasted managing this paper system.",
+                    "Myself, along with a junior co-op developer, were given the opportunity to design and implement a web solution to manage the parts and tools.",
+                    "I was the lead developer andproject manager. I designed the database schema and setup the servers required for the project which included: database server running MariaDB, Apache server with PHP5, a GitLab server to host our code repository.",
+                    "Using Angular 6 and Google Material Design, we implemented a clean and user friendly website to manage these parts and tools in a more efficient manner."
+                ]
+            },
+            {
+                "company": "Magna:",
+                "projectName": "Invoice and Payment Tracking Application",
+                "description": [
+                    "Collaborated with the Finance team to redesign and implement an MS Access solution to model the data for invoice and payment tracking as the existing solution could not support this.",
+                    "Designed and implemented a relational database model consisting of 23 tables."
+                ]
+            },
+            {
+                "company": "IFS",
+                "projectName": "",
+                "description": [
+                    "Supported an aviation maintenance management software product for the commercial and defense industries.",
+                    "Main responsibilities included: feature design and implementation, bug fixes, code reviews, and documentation.",
+                    "The first project focused on a legacy system, managing parts and tools used for aircraft maintenance and employee scheduling. The second project focused on a separate aircraft maintenance scheduling application.",
+                    "Key technologies and approaches: PostgreSQL, AngularJS, Java backend, Docker, Shippable, Bit Bucket, Git, agile methodology."
+                ]
             }
         ]
     }

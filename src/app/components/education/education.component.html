@@ -1,0 +1,15 @@
+<mat-card *ngFor="let role of data">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{role.name}}</mat-card-title>
+  </mat-card-header>
+  <div style="display:flex; flex-direction: row; justify-content: left; align-items: left">
+    <mat-card-content>
+      <ul>
+        <li *ngFor="let line of role.description">
+          {{ line }}
+        </li>
+      </ul>
+    </mat-card-content>
+  </div>
+</mat-card>
