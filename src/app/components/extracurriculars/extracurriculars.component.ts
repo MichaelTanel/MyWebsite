@@ -9,7 +9,7 @@ import { Activity } from 'src/app/models/activity';
 })
 export class ExtracurricularsComponent implements OnInit {
 
-  private data : Activity[];
+  data : Activity[];
 
   constructor(private activitiesService : ActivitiesService) {
 
