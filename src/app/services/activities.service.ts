@@ -10,6 +10,6 @@ export class ActivitiesService {
   constructor(private http : HttpClient) { }
 
   public getActivities(): Observable<any> {
-    return this.http.get<any>('../../assets/data/information.json');
+    return this.http.get<any>('assets/data/information.json');
   }
 }

@@ -12,6 +12,6 @@ export class EducationService {
   }
 
   public getEducation(): Observable<any> {
-    return this.http.get<any>('../../assets/data/information.json');
+    return this.http.get<any>('assets/data/information.json');
   }
 }
